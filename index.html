@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="preload" href="./assets/css/style.css" as="style" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Blackjack</title>
+  </head>
+  <body class="text-white bg-success">
+    <header>
+      <h1 class="fs-3 text-center bg-black p-2">Blackjack</h1>
+    </header>
+
+    <main class="mt-2">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center">
+            <button id="btnJuegoNuevo" class="btn btn-danger">Nuevo Juego</button>
+            <button id="btnPedirCarta" class="btn btn-primary">Pedir Carta</button>
+            <button id="btnDetenerJuego" class="btn btn-primary">Detener</button>
+          </div>
+        </div>
+        <div class="row">
+          <section class="col">
+            <h2>Jugador - <small>0</small></h2>
+            <div id="player-cards" class="cartas">
+            </div>
+          </section>
+        </div>
+        <div class="row mt-5">
+          <section class="col">
+            <h2>Computadora - <small>0</small></h2>
+            <div id="computer-cards" class="cartas">
+            </div>
+          </section>
+        </div>
+      </div>
+    </main>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
+    <script src="./assets/js/app.js"></script>
+  </body>
+</html>

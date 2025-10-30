@@ -1,0 +1,13 @@
+#player-cards,
+#computer-cards {
+  min-height: 230px;
+}
+
+.carta {
+  position: relative;
+  width: 150px;
+}
+
+.cartas .carta:not(.carta:first-child) {
+  margin-left: -75px;
+}
