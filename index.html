@@ -22,23 +22,27 @@
       <div class="container">
         <div class="row">
           <div class="col text-center">
-            <button id="btnJuegoNuevo" class="btn btn-danger">Nuevo Juego</button>
-            <button id="btnPedirCarta" class="btn btn-primary">Pedir Carta</button>
-            <button id="btnDetenerJuego" class="btn btn-primary">Detener</button>
+            <button id="btnJuegoNuevo" class="btn btn-danger">
+              Nuevo Juego
+            </button>
+            <button id="btnPedirCarta" class="btn btn-primary">
+              Pedir Carta
+            </button>
+            <button id="btnDetenerJuego" class="btn btn-primary">
+              Detener
+            </button>
           </div>
         </div>
         <div class="row">
           <section class="col">
             <h2>Jugador - <small>0</small></h2>
-            <div id="player-cards" class="cartas">
-            </div>
+            <div class="cartas"></div>
           </section>
         </div>
         <div class="row mt-5">
           <section class="col">
             <h2>Computadora - <small>0</small></h2>
-            <div id="computer-cards" class="cartas">
-            </div>
+            <div class="cartas"></div>
           </section>
         </div>
       </div>
@@ -50,5 +54,8 @@
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/underscore@1.13.7/underscore-umd-min.js"></script>
     <script src="./assets/js/app.js"></script>
+    <script>
+      blackJackModule.initGame();
+    </script>
   </body>
 </html>

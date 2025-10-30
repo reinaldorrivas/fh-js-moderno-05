@@ -1,5 +1,4 @@
-#player-cards,
-#computer-cards {
+.cartas {
   min-height: 230px;
 }
 
