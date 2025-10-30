@@ -1,4 +1,6 @@
 const blackJackModule = (() => {
+  "use strict";
+
   /*
    * INIT VARS
    */
@@ -47,7 +49,7 @@ const blackJackModule = (() => {
     }
 
     contenedoresCartas.forEach((contenedorCartas) => {
-      contenedorCartas.innerHTML = '';
+      contenedorCartas.innerHTML = "";
     });
 
     tableroPuntos.forEach((puntosJugador) => {
